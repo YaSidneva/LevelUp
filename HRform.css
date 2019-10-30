@@ -2,8 +2,15 @@
 
 body {
     background-image: linear-gradient( #FFFF96, #009E00);
-    margin-left: 20px;
+    display: flex;
 }
+
+form {
+    border: 2px solid darkgreen;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin: auto;
+}       
 
 h1 {
     font-family: 'Jura', sans-serif;
@@ -91,7 +98,8 @@ table {
     border: 2px solid darkgreen;
     border-collapse: collapse; 
     font-family: 'Montserrat Alternates';
-    color:  rgb(0, 27, 0);;
+    color:  rgb(0, 27, 0);
+    margin-bottom: 5px;
 }
 
 td, 
@@ -104,4 +112,11 @@ table img {
     height: 40px;
     width: 40px;
     vertical-align: middle;   
+}
+
+.main {
+    font-family: 'Comfortaa';
+    color: rgb(0, 27, 0);
+    letter-spacing: 1px;
+    font-weight: 600;
 }
