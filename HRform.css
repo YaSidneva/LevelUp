@@ -60,8 +60,22 @@ a:hover {
     background-color:  rgb(117, 194, 93);
 }
 
+[type="date"] {
+    background: url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  }
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
 .soft-skills {
     margin-top: 20px;
+}
+
+ul {
+    list-style-type: circle;
 }
 
 input::placeholder {
