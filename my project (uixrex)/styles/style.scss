@@ -38,7 +38,7 @@
             border-bottom: 1px solid #fff;
         }
 
-        button {
+        .try {
             width: 242px;
             height: 76px;
             border-radius: 38px;
@@ -46,8 +46,9 @@
             color: $text-color-blue;
             font-size: 25.5px;
             line-height: 38px;
-            border: none;
+            border: none; 
             z-index: 4;
+            cursor: pointer;
         }
 
     }
