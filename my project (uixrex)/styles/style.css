@@ -1,0 +1,226 @@
+.poppins-semibold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.poppins-regular {
+  font-family: 'Poppins', sans-serif;
+}
+
+.montserrat-regular {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat-semibold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-container {
+  max-width: 1909px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-container-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.top-part {
+  height: 1043px;
+  overflow: hidden;
+  position: relative;
+}
+
+.top-part header {
+  width: 1171px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 62px;
+  margin: 0 auto;
+}
+
+.top-part header .title {
+  text-transform: uppercase;
+  font-size: 33.5px;
+  line-height: 48.5px;
+  color: #fff;
+}
+
+.top-part header nav {
+  width: 641px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top-part header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.top-part header a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.top-part header button {
+  width: 242px;
+  height: 76px;
+  border-radius: 38px;
+  background-color: #fff;
+  color: #4085f6;
+  font-size: 25.5px;
+  line-height: 38px;
+  border: none;
+  z-index: 4;
+}
+
+.top-part .circle-container {
+  width: 441px;
+  height: 352px;
+  position: absolute;
+  top: -138px;
+  left: 1468px;
+  overflow: hidden;
+  z-index: 3;
+  position: relative;
+}
+
+.top-part .circle {
+  width: 522px;
+  height: 522px;
+  border-radius: 50%;
+  background-color: #1d72fe;
+  -webkit-box-shadow: 2.1px 5.6px 36.8px 3.2px rgba(34, 31, 31, 0.2);
+          box-shadow: 2.1px 5.6px 36.8px 3.2px rgba(34, 31, 31, 0.2);
+  position: absolute;
+  left: 34px;
+  top: -201px;
+}
+
+.top-part .background-square {
+  z-index: -10;
+  height: 2906PX;
+  width: 2764PX;
+  position: absolute;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#4085f6), to(#1760d7));
+  background-image: linear-gradient(to top, #4085f6, #1760d7);
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+  border-radius: 608px;
+  top: -2160px;
+  left: -75px;
+  border: 15px solid #226be2;
+  overflow: hidden;
+}
+
+.top-part .background-square .small-circle {
+  width: 488px;
+  height: 488px;
+  border-radius: 50%;
+  background-color: #1d72fe;
+  -webkit-box-shadow: 2.1px 5.6px 36.8px 3.2px rgba(34, 31, 31, 0.2);
+          box-shadow: 2.1px 5.6px 36.8px 3.2px rgba(34, 31, 31, 0.2);
+  position: absolute;
+  top: 2570px;
+  left: 2343px;
+}
+
+.top-part .phone {
+  position: absolute;
+  left: 272px;
+  top: 145px;
+}
+
+.top-part .top-description {
+  height: 201px;
+  width: 598px;
+  margin-left: 957px;
+  margin-top: -106px;
+}
+
+.top-part .top-description .top-description-title {
+  color: #fff;
+  font-size: 46px;
+  text-align: right;
+  padding-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.top-part .top-description .top-description-text {
+  color: #fff;
+  font-size: 20px;
+  text-align: right;
+}
+
+.top-part .download-button {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 81px;
+  width: 478px;
+  margin-left: 1069px;
+  margin-top: 84px;
+}
+
+.top-part .download-button button {
+  height: 81px;
+  width: 230px;
+  border-radius: 40px;
+  background-color: #22233a;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  cursor: pointer;
+}
+
+.top-part .download-button embed {
+  margin-right: 23px;
+}
+
+.top-part .download-button .appstore-description,
+.top-part .download-button .playstore-description {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.top-part .download-button .store-description-text {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 13.5px;
+  line-height: 34.5px;
+}
+
+.top-part .download-button .appstore-description-title, .top-part .download-button .playstore-description-title {
+  color: #fff;
+  font-size: 19px;
+}
+/*# sourceMappingURL=style.css.map */

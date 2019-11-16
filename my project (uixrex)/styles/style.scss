@@ -1,0 +1,185 @@
+@import'fonts';
+@import'colors';
+@import'base';
+
+.top-part {
+    height: 1043px;
+    overflow: hidden;
+    position: relative;
+
+    header {
+        width: 1171px;
+        justify-content: space-between;
+        padding-top: 62px;
+        margin: 0 auto;
+
+
+        .title {
+            text-transform: uppercase;
+            font-size: 33.5px;
+            line-height: 48.5px;
+            color: #fff;
+        }
+
+        nav {
+            width: 641px;
+            justify-content: space-between;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            line-height: 42px;
+        }
+
+        a:hover {
+            border-bottom: 1px solid #fff;
+        }
+
+        button {
+            width: 242px;
+            height: 76px;
+            border-radius: 38px;
+            background-color: #fff;
+            color: $text-color-blue;
+            font-size: 25.5px;
+            line-height: 38px;
+            border: none;
+            z-index: 4;
+        }
+
+    }
+
+    .circle-container {
+        width: 441px;
+        height: 352px;
+        position: absolute;
+        top: -138px;
+        left: 1468px;
+        overflow: hidden;
+        z-index: 3;
+        position: relative;
+
+    }
+
+    .circle {
+        width: 522px;
+        height: 522px;
+        border-radius: 50%;
+
+        background-color: $background-color-circle-blue;
+        box-shadow: 2.1px 5.6px 36.8px 3.2px rgba(34, 31, 31, 0.2);
+        position: absolute;
+        left: 34px;
+        top: -201px;
+
+    }
+
+
+
+
+
+    .background-square {
+        z-index: -10;
+        height: 2906PX;
+        width: 2764PX;
+        position: absolute;
+        background-image: $background-color-blue;
+        transform: rotate(40deg);
+        border-radius: 608px;
+        top: -2160px;
+        left: -75px;
+        border: 15px solid #226be2;
+        overflow: hidden;
+
+        .small-circle {
+            width: 488px;
+            height: 488px;
+            border-radius: 50%;
+            background-color: $background-color-circle-blue;
+            box-shadow: 2.1px 5.6px 36.8px 3.2px rgba(34, 31, 31, 0.2);
+            position: absolute;
+            top: 2570px;
+            left: 2343px;
+        }
+    }
+
+    .phone {
+        position: absolute;
+        left: 272px;
+        top: 145px;
+    }
+
+    .top-description {
+        height: 201px;
+        width: 598px;
+        margin-left: 957px;
+        margin-top: -106px;
+
+
+        .top-description-title {
+            color: #fff;
+            font-size: 46px;
+            
+            text-align: right;
+            padding-bottom: 40px;
+            text-transform: capitalize;
+        }
+
+        .top-description-text {
+            color: #fff;
+            font-size: 20px;
+            
+            text-align: right;
+        }
+
+
+    }
+
+    .download-button {
+        justify-content: space-between;
+        height: 81px;
+        width: 478px;
+        margin-left: 1069px;
+        margin-top: 84px;
+
+
+        button {
+            height: 81px;
+            width: 230px;
+            border-radius: 40px;
+            background-color: $background-color-button-dark;
+            justify-content: center;
+            border: none;
+            cursor: pointer;
+        }
+
+        embed {
+            margin-right: 23px;
+        }
+
+        .appstore-description,
+        .playstore-description {
+            align-items: flex-start;
+        }
+
+        .store-description-text {
+            text-transform: capitalize;
+            color: #fff;
+            font-size: 13.5px;
+            line-height: 34.5px;
+        }
+
+        .appstore-description-title {
+            color: #fff;
+            font-size: 19px;
+        }
+
+        .playstore-description-title {
+            @extend.appstore-description-title;
+        }
+    }
+
+}
