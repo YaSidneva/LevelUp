@@ -11,6 +11,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.montserrat-medium {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
 .montserrat-semibold {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -135,7 +140,7 @@ body {
   -webkit-transform: rotate(40deg);
           transform: rotate(40deg);
   border-radius: 608px;
-  top: -2160px;
+  top: -2162px;
   left: -75px;
   border: 15px solid #226be2;
   overflow: hidden;
@@ -223,5 +228,175 @@ body {
 .top-part .download-button .appstore-description-title, .top-part .download-button .playstore-description-title {
   color: #fff;
   font-size: 19px;
+}
+
+.about-container {
+  height: 801px;
+  padding-top: 89px;
+}
+
+.about-container .about-description {
+  height: 141px;
+  width: 913px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.about-container .about-description .about-title {
+  text-transform: capitalize;
+  color: #5d5d5d;
+  font-size: 36px;
+  line-height: 1;
+}
+
+.about-container .about-description .about-text {
+  color: #737373;
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.about-container .about-cards {
+  height: 391px;
+  width: 1170px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 90px auto 0 auto;
+}
+
+.about-container .about-cards .about-card {
+  width: 358px;
+  height: 391px;
+  background-color: #fff;
+  -webkit-box-shadow: 0.7px 1.9px 19.6px 0.4px rgba(34, 31, 31, 0.2);
+          box-shadow: 0.7px 1.9px 19.6px 0.4px rgba(34, 31, 31, 0.2);
+  position: relative;
+}
+
+.about-container .about-cards .about-card .about-card-back {
+  width: 68px;
+  height: 68px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  background-color: #f3f5f8;
+  border-radius: 5px;
+  margin: 71px auto 0 auto;
+}
+
+.about-container .about-cards .about-card .about-image {
+  position: absolute;
+  position: absolute;
+  top: 85px;
+  left: 163px;
+  margin-bottom: 71px;
+}
+
+.about-container .about-cards .about-card .about-card-description {
+  position: absolute;
+  top: 192px;
+  text-align: center;
+}
+
+.about-container .about-cards .about-card .about-card-title {
+  margin: 0 auto 40px auto;
+  color: #5d5d5d;
+  font-size: 24px;
+}
+
+.about-container .about-cards .about-card .about-card-text {
+  color: #737373;
+  font-size: 16px;
+  padding: 0 26px;
+}
+
+.about-container .about-cards .about-card .about-card-back-lock {
+  background-color: #4085f6;
+}
+
+.about-container .about-cards .about-card .about-card-title-lock {
+  color: #4085f6;
+}
+
+.features-container {
+  height: 1401px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#4085f6), to(#1760d7));
+  background-image: linear-gradient(to top, #4085f6, #1760d7);
+  border-bottom: 15px solid #226be2;
+  color: #fff;
+  position: relative;
+  padding-top: 89px;
+}
+
+.features-container .features-description {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 141px;
+  width: 957px;
+  margin: 0 auto;
+}
+
+.features-container .features-description .features-title {
+  font-size: 36px;
+}
+
+.features-container .features-description .features-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.features-container .features-image {
+  position: absolute;
+  top: 329px;
+  left: 373px;
+}
+
+.features-container .features-list {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 72px;
+  -webkit-column-gap: 38px;
+          column-gap: 38px;
+  height: 700px;
+  width: 670px;
+  -ms-grid-columns: 78px 554px;
+      grid-template-columns: 78px 554px;
+  margin: 98px 362px 358px 876px;
+}
+
+.features-container .features-list .feature-icon {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.features-container .features-list .feature-description {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 125px;
+}
+
+.features-container .features-list .feature-description path .feature-description-title {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.features-container .features-list .feature-description .feature-description-text {
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */
