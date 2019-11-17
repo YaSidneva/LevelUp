@@ -377,14 +377,7 @@ nav {
 .best-sales-container a .old-price {
   position: relative;
   color: #C1C8CE;
-}
-
-.best-sales-container a .line {
-  position: absolute;
-  width: 39px;
-  height: 1px;
-  border-bottom: 1px solid #5D656B;
-  top: 9px;
+  text-decoration: line-through;
 }
 
 .best-sales-container a .best-price-image-hover {
