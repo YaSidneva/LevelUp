@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1312" viewBox="0 0 1920 1312">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #436bde;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="1920" height="1297" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="0" y="0" width="1920" height="1297" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxMjk3IiB2aWV3Qm94PSIwIDAgMTkyMCAxMjk3Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9Ijk2MCIgeTE9IjEyOTciIHgyPSI5NjAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSItMC4xIiBzdG9wLWNvbG9yPSIjNWI4NGYyIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMS4xIiBzdG9wLWNvbG9yPSIjM2E2MGQzIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjEyOTciLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Монтажная_область_1" data-name="Монтажная область 1">
+    <path class="cls-1" d="M0,1179.01s233.832-201.774,527.156,51.3c81.192,50.56,120.177,63.62,248.19,5.51,53.119-16.51,143.6-56.29,353.424-5.51,34.43,7.72,229.5,80.4,284.92,81.34,34.91,3.69,112.52-21.01,234.29-129.88,26.47-24.3,142.97-105.29,272.02,0V0H0V1179.01Z"/>
+    <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-2" d="M0,1165.63s233.832-199.3,527.156,50.68c81.192,49.94,120.177,62.84,248.19,5.44,53.119-16.31,143.6-55.6,353.424-5.44,34.43,7.62,229.5,79.41,284.92,80.34,34.91,3.65,112.52-21.8,234.29-129.33,26.47-24.01,142.97-104,272.02,0V0H0V1165.63Z"/>
+  </g>
+</svg>
