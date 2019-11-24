@@ -21,8 +21,12 @@ alert("Сумма введенных положительных чисел: " + 
 
 //2
 let result = 0;
-result = Math.max(a * b * c, a + b + c) + 3;
-alert("max (" + a + " * " + b + " * " + c + ", " + a + " + " + b + " + " + c + ") + 3 = " + result);
+if ((a*b*c) >= (a+b+c)) {
+    result = a*b*c +3;
+} else {
+    result = a + b + c + 3;
+}
+alert (`Максимальное значение (${a} * ${b} * ${c}), (${a} + ${b} + ${c}) + 3 = ${result}`);
 
 
 //3
