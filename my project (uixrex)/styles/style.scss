@@ -7,7 +7,7 @@
     overflow: hidden;
     position: relative;
 
-    header {
+    .top-menu {
         width: 1171px;
         justify-content: space-between;
         padding-top: 62px;
@@ -114,7 +114,7 @@
     }
 
     .top-description {
-        height: 201px;
+        align-items: flex-end;
         width: 598px;
         margin-left: 957px;
         margin-top: -106px;
@@ -144,7 +144,7 @@
         height: 81px;
         width: 478px;
         margin-left: 1069px;
-        margin-top: 84px;
+        margin-top: 72px;
 
 
         button {
@@ -157,7 +157,7 @@
             cursor: pointer;
         }
 
-        embed {
+        img {
             margin-right: 23px;
         }
 
@@ -186,7 +186,7 @@
 }
 
 .about-container {
-    height: 801px;
+    margin-bottom: 90px;
     padding-top: 89px;
 
     .about-description {
@@ -212,7 +212,6 @@
     }
 
     .about-cards {
-        height: 391px;
         width: 1170px;
         justify-content: space-between;
         margin: 90px auto 0 auto;
@@ -242,8 +241,7 @@
             }
 
             .about-card-description {
-                position: absolute;
-                top: 192px;
+                margin-top: 43px;
                 text-align: center;
 
             }
@@ -309,7 +307,9 @@
         height: 700px;
         width: 670px;
         grid-template-columns: 78px 554px;
-        margin: 98px 362px 358px 876px;
+        position: absolute;
+        top: 328px;
+        right: 362px;
 
         .feature-icon {
             width: 78px;
@@ -344,9 +344,9 @@
 }
 
 .pricing-container {
-    height: 966px;
     background-color: $background-color-pricing-grey;
     padding-top: 87px;
+    padding-bottom: 1px;
 
     .pricing-description {
         width: 913px;
@@ -415,7 +415,7 @@
             color: $text-color-dark;
             font-size: 14px;
 
-            embed {
+            img {
                 margin-right: 8px;
             }
         }
@@ -436,7 +436,8 @@
         }
 
 
-        .pricing-card-professional {
+        .pricing-card:hover {
+            cursor: pointer;
             height: 557px;
             background-image: $background-color-blue;
             color: #fff;
@@ -506,7 +507,7 @@
 }
 
 .reviews-container {
-    height: 671px;
+    padding-bottom: 72px;
     padding-top: 90px;
     color: #fff;
     align-items: center;
@@ -583,7 +584,6 @@
     }
 
     .switches {
-        margin-bottom: 90px;
         text-align: center;
  
         .switch {
