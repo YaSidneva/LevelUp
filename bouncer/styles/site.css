@@ -385,7 +385,8 @@ nav {
   display: -ms-flexbox;
   display: flex;
   width: 250px;
-  height: 197px;
+  height: 150px;
+  margin-top: 40px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -411,6 +412,7 @@ nav {
 .best-sales-container a button {
   cursor: pointer;
   opacity: 1;
+  margin-bottom: 20px;
 }
 
 .best-sales-container a .add-to-cart, .best-sales-container a .like {

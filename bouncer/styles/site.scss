@@ -305,9 +305,10 @@ nav {
         .best-price-image-hover {
             display: flex;
             width: 250px;
-            height: 197px;
+            height: 150px;
+            margin-top: 40px;
             justify-content: space-between;
-            opacity: 0;
+            opacity: 0; 
             z-index: 10;
             position: absolute;
             top: 0;
@@ -325,6 +326,7 @@ nav {
         button {
             cursor: pointer;
             opacity: 1;
+            margin-bottom: 20px;
         }
 
         .add-to-cart {
