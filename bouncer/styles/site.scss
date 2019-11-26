@@ -1,13 +1,15 @@
 @import 'base';
 
+
+$top-menu-height: 48px;
 header {
     height: 216px;
-
 }
 
 .top-menu {
-    height: 48px;
+    height: $top-menu-height;
     border-bottom: 1px solid $border-color;
+    flex-shrink: 0;
 
     .container {
         display: flex;
@@ -15,6 +17,7 @@ header {
         align-items: center;
         height: 100%;
     }
+
 }
 
 .top-menu .dd:first-child {
@@ -439,5 +442,9 @@ footer {
             margin-right: 0;
         }
     }
+    
+}
+
+@media (max-width) {
     
 }

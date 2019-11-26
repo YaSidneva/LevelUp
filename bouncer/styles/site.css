@@ -72,6 +72,8 @@ header {
 .top-menu {
   height: 48px;
   border-bottom: 1px solid #F6F7F8;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .top-menu .container {

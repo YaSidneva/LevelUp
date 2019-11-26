@@ -510,6 +510,11 @@ body {
   margin-right: 8px;
 }
 
+.pricing-container .pricing-cards .pricing-card-items i {
+  margin-right: 8px;
+  color: #4085f6;
+}
+
 .pricing-container .pricing-cards button {
   width: 205px;
   height: 55px;
@@ -541,7 +546,12 @@ body {
 }
 
 .pricing-container .pricing-cards .pricing-card:hover button {
+  cursor: pointer;
   border: none;
+}
+
+.pricing-container .pricing-cards .pricing-card:hover i {
+  color: white;
 }
 
 .screenshots-container {

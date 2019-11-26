@@ -418,6 +418,11 @@
             img {
                 margin-right: 8px;
             }
+
+            i {
+                margin-right: 8px;
+                color: $text-color-blue;
+            }
         }
 
         button {
@@ -441,7 +446,7 @@
             height: 557px;
             background-image: $background-color-blue;
             color: #fff;
-            border: none;
+            border: none; 
 
             .pricing-card-description,
             .pricing-card-items,
@@ -450,10 +455,16 @@
             }
 
             button {
+                cursor: pointer;
                 border: none;
             }
 
         }
+
+        .pricing-card:hover i {
+            color: white;
+        }
+
     }
 }
 

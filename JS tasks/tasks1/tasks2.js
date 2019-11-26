@@ -96,4 +96,4 @@ function getMirrowNumber(numb) {
     }
     return mirrowNumber;
 }
-console.log(getMirrowNumber(539));
+console.log(getMirrowNumber(1234567891234567));
